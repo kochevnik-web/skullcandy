@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/skullcandy/static/css/main.9579bef6.chunk.css",
+    "main.js": "/skullcandy/static/js/main.84f5312f.chunk.js",
+    "main.js.map": "/skullcandy/static/js/main.84f5312f.chunk.js.map",
+    "runtime-main.js": "/skullcandy/static/js/runtime-main.f0d40cdd.js",
+    "runtime-main.js.map": "/skullcandy/static/js/runtime-main.f0d40cdd.js.map",
+    "index.html": "/skullcandy/index.html",
+    "static/css/main.9579bef6.chunk.css.map": "/skullcandy/static/css/main.9579bef6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0d40cdd.js",
+    "static/css/main.9579bef6.chunk.css",
+    "static/js/main.84f5312f.chunk.js"
+  ]
+}
