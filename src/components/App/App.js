@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import './App.scss';
 
 import Intro from '../Intro/Intro';
+import Mountains from '../Mountains/Mountains';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
     return (
         <div className={clx.join(' ')} style={{ fontSize: em }}>
             <Intro />
+            <Mountains />
         </div>
     );
 }
