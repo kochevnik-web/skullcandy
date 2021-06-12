@@ -5,6 +5,7 @@ import './App.scss';
 import Intro from '../Intro/Intro';
 import Mountains from '../Mountains/Mountains';
 import Stas from '../Stas/Stas';
+import BlackSection from '../BlackSection/BlackSection';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
             <Intro />
             <Mountains />
             <Stas />
+            <BlackSection number={0} />
         </div>
     );
 }

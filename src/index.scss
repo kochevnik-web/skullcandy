@@ -36,6 +36,14 @@ body {
 
     &-text {
         font-size: 2.7em;
+
+        a {
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
 
     &-lh {

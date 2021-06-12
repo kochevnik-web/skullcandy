@@ -1,0 +1,39 @@
+.skullcandy {
+    &-black-section {
+        background-color: var(--black);
+        color: var(--white);
+        position: relative;
+
+        img {
+            position: absolute;
+        }
+
+        &-content {
+            width: 77em;
+            font-weight: bold;
+            line-height: 3.6em;
+
+            span {
+                font-size: 3.6em;
+
+                text {
+                    display: inline;
+                    background-image: linear-gradient(to bottom, var(--white) 33%, transparent 33%);
+                    background-position: 0 1.2em;
+                    background-repeat: repeat-x;
+                    background-size: 2px 0.25em;
+                }
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                background: #fff;
+                width: 10em;
+                height: 1em;
+                top: -6.2em;
+                left: 0;
+            }
+        }
+    }
+}
