@@ -1,0 +1,46 @@
+.skullcandy {
+    &-intro{
+        position: relative;
+        min-height: 115em;
+
+        &-img {
+            height: 3.7em;
+            left: 40em;
+            position: absolute;
+            top: 11.8em;
+            width: 19.5em;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        &-title {
+            position: absolute;
+            top: 26.5em;
+            width: 68em;
+            line-height: 4.9em;
+
+            span {
+                font-size: 4.8em;
+            }
+        }
+
+        &-description {
+            position: absolute;
+            top: 61.5em;
+            width: 76em;
+
+            h5 {
+                line-height: 4em;
+                font-weight: bold;
+                margin: 0 0 3.5em 0;
+
+                span {
+                    font-size: 3.3em;
+                }
+            }
+        }
+    }
+}
