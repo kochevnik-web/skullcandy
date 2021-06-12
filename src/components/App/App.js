@@ -4,6 +4,7 @@ import './App.scss';
 
 import Intro from '../Intro/Intro';
 import Mountains from '../Mountains/Mountains';
+import Stas from '../Stas/Stas';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
         <div className={clx.join(' ')} style={{ fontSize: em }}>
             <Intro />
             <Mountains />
+            <Stas />
         </div>
     );
 }

@@ -1,0 +1,98 @@
+.skullcandy {
+    &-stas {
+        position: relative;
+        width: 100%;
+        min-height: 139.3em;
+
+        &-insta {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            top: 16em;
+            left: 12.5em;
+
+            &-img {
+                width: 17em;
+                height: 17em;
+                margin: 0 3em 0 0;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            &-title {
+                h5 {
+                    font-size: 4em;
+                    font-weight: bold;
+                }
+
+                a {
+                    width: 25.4em;
+                    height: 6.8em;
+                    border-radius: 5em;
+                    font-weight: bold;
+                    margin: 2.5em 0 0;
+
+                    span {
+                        font-size: 3em;
+                    }
+                }
+            }
+
+        }
+
+        &-content {
+            top: 16em;
+            width: 77em;
+
+            h2 {
+                font-weight: bold;
+                margin: 0 0 1.6em 0;
+
+                span {
+                    font-size: 6.4em;
+                }
+            }
+
+            h5 {
+                line-height: 4em;
+                width: 105%;
+                margin: 0 0 3em 0;
+
+                span {
+                    font-size: 4em;
+                }
+            }
+
+            p {
+                margin: 0 0 4em 0;
+            }
+
+            &-subtitle {
+                line-height: 3.2em;
+                margin: 0 0 3.7em 0;
+
+                span {
+                    font-size: 3em;
+                }
+            }
+        }
+
+        &-image {
+            position: absolute;
+            width: 43.1em;
+            height: 65.1em;
+            left: 15em;
+            top: 61.5em;
+
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
