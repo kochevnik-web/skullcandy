@@ -7,6 +7,7 @@ import Mountains from '../Mountains/Mountains';
 import Stas from '../Stas/Stas';
 import BlackSection from '../BlackSection/BlackSection';
 import Stas2 from '../Stas2/Stas2';
+import Stas3 from '../Stas3/Stas3';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
             <BlackSection number={0} />
             <Stas2 />
             <BlackSection number={1} />
+            <Stas3 />
         </div>
     );
 }

@@ -50,6 +50,12 @@ body {
         line-height: 3.2em;
     }
 
+    &-image-width {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
     &-blockquote {
         position: relative;
         line-height: 4.8em;

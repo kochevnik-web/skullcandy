@@ -42,7 +42,7 @@ function Stas2() {
                     </span>
                 </p>
             </div>
-        </div >
+        </div>
     );
 }
 
