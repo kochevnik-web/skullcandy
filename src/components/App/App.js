@@ -4,8 +4,9 @@ import './App.scss';
 
 import Intro from '../Intro/Intro';
 import Mountains from '../Mountains/Mountains';
-import Stas from '../Stas/Stas';
 import BlackSection from '../BlackSection/BlackSection';
+import PlayList from '../PlayList/PlayList';
+import Stas from '../Stas/Stas';
 import Stas2 from '../Stas2/Stas2';
 import Stas3 from '../Stas3/Stas3';
 
@@ -49,6 +50,7 @@ function App() {
             <BlackSection number={1} />
             <Stas3 />
             <BlackSection number={2} />
+            <PlayList number={0} />
         </div>
     );
 }

@@ -1,0 +1,48 @@
+.skullcandy {
+    &-playlist {
+        padding: 12em 0 12em 50em;
+
+        &-wrap {
+            border: 1em solid var(--black);
+            width: 108em;
+            padding: 6.4em 9.3em 6.4em 9.1em;
+        }
+
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 0 3.5em 0;
+        }
+
+        &-col-1, &-col-2 {
+            span {
+                font-size: 2.7em;
+            }
+        }
+
+        &-col-1 {
+            font-weight: bold;
+        }
+
+        &-col-2 {
+            width: 78em;
+        }
+
+        &-btns {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .skullcandy-btn-green {
+            width: 33.4em;
+            height: 6.8em;
+            font-weight: bold;
+            border-radius: 5em;
+
+            span {
+                font-size: 3em;
+            }
+        }
+    }
+}
