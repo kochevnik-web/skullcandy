@@ -1,8 +1,16 @@
 .skullcandy {
+
+    &-dance {
+        min-height: 139.3em;
+    }
+
+    &-dj {
+        min-height: 106em;
+    }
+
     &-start {
         position: relative;
         width: 100%;
-        min-height: 139.3em;
 
         &-insta {
             position: absolute;
