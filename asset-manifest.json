@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/skullcandy/static/css/main.86e056b8.chunk.css",
-    "main.js": "/skullcandy/static/js/main.db86948c.chunk.js",
-    "main.js.map": "/skullcandy/static/js/main.db86948c.chunk.js.map",
+    "main.css": "/skullcandy/static/css/main.05955e2c.chunk.css",
+    "main.js": "/skullcandy/static/js/main.d0e4a53d.chunk.js",
+    "main.js.map": "/skullcandy/static/js/main.d0e4a53d.chunk.js.map",
     "runtime-main.js": "/skullcandy/static/js/runtime-main.f0d40cdd.js",
     "runtime-main.js.map": "/skullcandy/static/js/runtime-main.f0d40cdd.js.map",
     "static/js/2.c720388f.chunk.js": "/skullcandy/static/js/2.c720388f.chunk.js",
     "static/js/2.c720388f.chunk.js.map": "/skullcandy/static/js/2.c720388f.chunk.js.map",
     "index.html": "/skullcandy/index.html",
-    "static/css/main.86e056b8.chunk.css.map": "/skullcandy/static/css/main.86e056b8.chunk.css.map",
+    "static/css/main.05955e2c.chunk.css.map": "/skullcandy/static/css/main.05955e2c.chunk.css.map",
     "static/js/2.c720388f.chunk.js.LICENSE.txt": "/skullcandy/static/js/2.c720388f.chunk.js.LICENSE.txt",
     "static/media/fonts.scss": "/skullcandy/static/media/Circe-Regular.f80cf2f1.ttf",
     "static/media/dj.1473e1a4.png": "/skullcandy/static/media/dj.1473e1a4.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.f0d40cdd.js",
     "static/js/2.c720388f.chunk.js",
-    "static/css/main.86e056b8.chunk.css",
-    "static/js/main.db86948c.chunk.js"
+    "static/css/main.05955e2c.chunk.css",
+    "static/js/main.d0e4a53d.chunk.js"
   ]
 }
