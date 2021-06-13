@@ -45,6 +45,7 @@ function App() {
             <Stas />
             <BlackSection number={0} />
             <Stas2 />
+            <BlackSection number={1} />
         </div>
     );
 }
