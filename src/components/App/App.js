@@ -53,6 +53,7 @@ function App() {
             <PlayList number={0} />
             <BigPic number={1} />
             <Start number={1} />
+            <BlackSection number={3} />
         </div>
     );
 }
