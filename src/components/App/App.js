@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import './App.scss';
 
 import Intro from '../Intro/Intro';
-import Mountains from '../Mountains/Mountains';
+import BigPic from '../BigPic/BigPic';
 import BlackSection from '../BlackSection/BlackSection';
 import PlayList from '../PlayList/PlayList';
 import Stas from '../Stas/Stas';
@@ -43,7 +43,7 @@ function App() {
     return (
         <div className={clx.join(' ')} style={{ fontSize: em }}>
             <Intro />
-            <Mountains />
+            <BigPic number={0} />
             <Stas />
             <BlackSection number={0} />
             <Stas2 />
@@ -51,6 +51,7 @@ function App() {
             <Stas3 />
             <BlackSection number={2} />
             <PlayList number={0} />
+            <BigPic number={1} />
         </div>
     );
 }
