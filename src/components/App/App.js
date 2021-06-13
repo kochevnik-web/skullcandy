@@ -6,7 +6,7 @@ import Intro from '../Intro/Intro';
 import BigPic from '../BigPic/BigPic';
 import BlackSection from '../BlackSection/BlackSection';
 import PlayList from '../PlayList/PlayList';
-import Stas from '../Stas/Stas';
+import Start from '../Start/Start';
 import Stas2 from '../Stas2/Stas2';
 import Stas3 from '../Stas3/Stas3';
 import DJ from '../DJ/DJ';
@@ -45,7 +45,7 @@ function App() {
         <div className={clx.join(' ')} style={{ fontSize: em }}>
             <Intro />
             <BigPic number={0} />
-            <Stas />
+            <Start number={0} />
             <BlackSection number={0} />
             <Stas2 />
             <BlackSection number={1} />
@@ -53,7 +53,7 @@ function App() {
             <BlackSection number={2} />
             <PlayList number={0} />
             <BigPic number={1} />
-            <DJ />
+            {/* <DJ /> */}
         </div>
     );
 }
