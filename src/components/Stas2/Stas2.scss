@@ -1,0 +1,28 @@
+.skullcandy {
+    &-stas2 {
+        position: relative;
+        min-height: 237.3em;
+
+        &-content {
+            top: 11em;
+            width: 77em;
+
+            p {
+                margin: 0 0 4em 0;
+            }
+        }
+
+        &-video {
+            width: 118.2em;
+            height: 65.8em;
+            position: relative;
+            left: -30.5em;
+            margin: 0 0 4em 0;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

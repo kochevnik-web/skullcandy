@@ -6,6 +6,7 @@ import Intro from '../Intro/Intro';
 import Mountains from '../Mountains/Mountains';
 import Stas from '../Stas/Stas';
 import BlackSection from '../BlackSection/BlackSection';
+import Stas2 from '../Stas2/Stas2';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
             <Mountains />
             <Stas />
             <BlackSection number={0} />
+            <Stas2 />
         </div>
     );
 }

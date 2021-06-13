@@ -50,6 +50,29 @@ body {
         line-height: 3.2em;
     }
 
+    &-blockquote {
+        position: relative;
+        line-height: 4.8em;
+        font-weight: bold;
+        width: 88em;
+        right: 11em;
+        margin: 0 0 3.3em 0;
+
+        &::before {
+            position: absolute;
+            content: "";
+            width: 1em;
+            height: 100%;
+            background: var(--black);
+            top: 0;
+            left: -3.6em;
+        }
+
+        span {
+            font-size: 4em;
+        }
+    }
+
     &-btn {
         display: flex;
         align-items: center;
