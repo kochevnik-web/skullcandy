@@ -54,6 +54,7 @@ function App() {
             <Start number={1} />
             <BlackSection number={3} />
             <More number={2} />
+            <PlayList number={1} />
         </div>
     );
 }
