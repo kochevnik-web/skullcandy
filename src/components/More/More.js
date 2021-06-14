@@ -34,6 +34,14 @@ function More({ number }) {
             )
         }
 
+        if (el.type === 'image') {
+            return (
+                <div className={"skullcandy-more-image " + el.content.id}>
+                    <img className="skullcandy-image-width" src={el.content.src} alt={el.content.alt} />
+                </div>
+            )
+        }
+
         return null;
     });
 
@@ -42,6 +50,11 @@ function More({ number }) {
             <div className="skullcandy-more-content skullcandy-left">
                 {elements}
             </div>
+            {dataMore.image && (
+                <div className={"skullcandy-more-image " + dataMore.id}>
+                    <img className="skullcandy-image-width" src={dataMore.image.src} alt={dataMore.image.alt} />
+                </div>
+            )}
         </div>
     );
 }

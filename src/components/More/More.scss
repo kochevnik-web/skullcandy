@@ -6,6 +6,10 @@
             min-height: 237.3em;
         }
 
+        &.skullcandy-dance-3 {
+            min-height: 119.7em;
+        }
+
         &-content {
             top: 11em;
             width: 77em;
@@ -25,6 +29,18 @@
             img {
                 width: 100%;
                 height: auto;
+            }
+        }
+
+        &-image {
+            position: absolute;
+            z-index: -1;
+
+            &.dance-3 {
+                width: 48.7em;
+                height: 60.9em;
+                left: 22em;
+                top: 50.7em;
             }
         }
     }
