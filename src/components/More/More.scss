@@ -1,7 +1,10 @@
 .skullcandy {
-    &-stas2 {
+    &-more {
         position: relative;
-        min-height: 237.3em;
+
+        &.skullcandy-dance-2 {
+            min-height: 237.3em;
+        }
 
         &-content {
             top: 11em;

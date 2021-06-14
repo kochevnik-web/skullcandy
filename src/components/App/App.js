@@ -7,7 +7,7 @@ import BigPic from '../BigPic/BigPic';
 import BlackSection from '../BlackSection/BlackSection';
 import PlayList from '../PlayList/PlayList';
 import Start from '../Start/Start';
-import Stas2 from '../Stas2/Stas2';
+import More from '../More/More';
 import Stas3 from '../Stas3/Stas3';
 
 function App() {
@@ -46,7 +46,7 @@ function App() {
             <BigPic number={0} />
             <Start number={0} />
             <BlackSection number={0} />
-            <Stas2 />
+            <More number={0} />
             <BlackSection number={1} />
             <Stas3 />
             <BlackSection number={2} />
