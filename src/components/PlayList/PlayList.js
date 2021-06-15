@@ -14,9 +14,11 @@ function PlayList({ number }) {
                 <div className="skullcandy-playlist-col-1">
                     <span dangerouslySetInnerHTML={{ __html: el.left }}></span>
                 </div>
-                <div className="skullcandy-playlist-col-2">
-                    <span dangerouslySetInnerHTML={{ __html: el.right }}></span>
-                </div>
+                {playlist.type === 'list' ? (
+                    <div className="skullcandy-playlist-col-2">
+                        <span dangerouslySetInnerHTML={{ __html: el.right }}></span>
+                    </div>
+                ) : null}
             </div>
         )
     })

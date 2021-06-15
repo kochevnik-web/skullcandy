@@ -53,6 +53,14 @@ const data = [
             { src: skullcandy5, style: { left: '126em', top: '-21.5em', width: '68.1em', height: '60.8em' }, alt: 'skullcandy-5' }
         ]
     },
+    {
+        text: "Создатели бренда SkullCandy построили внутреннюю философию компании по похожим принципам. Рабочий день с 9 до 18 или строгий корпоративный стиль — не про них. Сотрудники могут делать свою работу откуда и когда захотят. <text>Главное — это классный результат.</text>",
+        height: '51em',
+        styleWrap: { top: '13.5em' },
+        images: [
+            { src: skullcandy4, style: { left: '135em', top: '-27.5em', width: '58.2em', height: '58.2em' }, alt: 'skullcandy-4' }
+        ]
+    },
 ];
 
 export default data;
