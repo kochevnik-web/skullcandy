@@ -54,7 +54,12 @@ function App() {
             <Start number={1} />
             <BlackSection number={3} />
             <More number={2} />
+            <BlackSection number={4} />
+            <More number={3} />
             <PlayList number={1} />
+            <BigPic number={2} />
+            <Start number={2} />
+            <BlackSection number={5} />
         </div>
     );
 }

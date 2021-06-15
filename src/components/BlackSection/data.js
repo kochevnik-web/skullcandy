@@ -2,6 +2,7 @@ import skullcandy1 from './img/skullcandy1.png'
 import skullcandy2 from './img/skullcandy2.png'
 import skullcandy3 from './img/skullcandy3.png'
 import skullcandy4 from './img/skullcandy4.png'
+import skullcandy5 from './img/skullcandy5.png'
 
 const data = [
     {
@@ -34,6 +35,22 @@ const data = [
         styleWrap: { top: '13.5em' },
         images: [
             { src: skullcandy4, style: { left: '135em', top: '-27.5em', width: '58.2em', height: '58.2em' }, alt: 'skullcandy-4' }
+        ]
+    },
+    {
+        text: "Миссия бренда SkullCandy — раскрывать внутреннюю силу музыки для всех.",
+        height: '29.2em',
+        styleWrap: { top: '13.5em' },
+        images: [
+            { src: skullcandy3, style: { left: '27em', top: '7.5em', width: '7.3em', height: '9.3em' }, alt: 'skullcandy-3' }
+        ]
+    },
+    {
+        text: "Сотрудники бренда гордятся тем, что компанию основали фактически на горнолыжном подъёмнике в городе Парк Сити. Это произошло, когда создатель SkullCandy, Рик Олден, поднимался на нём и не смог принять звонок, остановив музыку в наушниках (технологии того времени не позволяли переключить наушники с одной функции на другую).",
+        height: '63.7em',
+        styleWrap: { top: '16.5em' },
+        images: [
+            { src: skullcandy5, style: { left: '126em', top: '-21.5em', width: '68.1em', height: '60.8em' }, alt: 'skullcandy-5' }
         ]
     },
 ];
