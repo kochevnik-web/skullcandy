@@ -1,6 +1,3 @@
-import video1 from './img/video1.png';
-import video2 from './img/video2.png';
-import video3 from './img/video3.png';
 import litvinov from './img/litvinov.png';
 import djein from './img/djein.png';
 import davidov from './img/davidov.png';
@@ -28,7 +25,7 @@ const data = [
             },
             {
                 type: 'video',
-                content: { src: video1, alt: 'Стас Литвинов Видео' }
+                content: { src: process.env.PUBLIC_URL + '/videos/video1.mp4', alt: 'Стас Литвинов Видео' }
             },
             {
                 type: 'text',
@@ -94,7 +91,7 @@ const data = [
             },
             {
                 type: 'video',
-                content: { src: video2, alt: 'Мэри Джейн Видео' }
+                content: { src: process.env.PUBLIC_URL + '/videos/video2.mp4', alt: 'Мэри Джейн Видео' }
             },
             {
                 type: 'text',
@@ -124,7 +121,7 @@ const data = [
             },
             {
                 type: 'video',
-                content: { src: video3, alt: 'Дима Давыдов Видео' }
+                content: { src: process.env.PUBLIC_URL + '/videos/video3.mp4', alt: 'Дима Давыдов Видео' }
             },
             {
                 type: 'blockquote',

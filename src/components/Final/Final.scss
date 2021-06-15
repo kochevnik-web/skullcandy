@@ -1,0 +1,82 @@
+.skullcandy {
+    &-final {
+        position: relative;
+        min-height: 144em;
+        font-weight: bold;
+
+        .skullcandy-more-content {
+            width: 55em;
+        }
+
+        .skullcandy-final-image-1 {
+            width: 19.5em;
+            height: 3.7em;
+            left: 40.7em;
+            top: 10.5em;
+        }
+
+        .skullcandy-final-image-2 {
+            width: 43.5em;
+            height: 55.2em;
+            left: 15em;
+            top: 33.6em;
+        }
+
+        .skullcandy-final-image-3 {
+            width: 31.4em;
+            height: 23em;
+            top: 15em;
+            left: 137em;
+        }
+
+        .skullcandy-final-image-4 {
+            width: 32.1em;
+            height: 38.7em;
+            top: 56em;
+            left: 137em;
+        }
+
+        .skullcandy-final-image-5 {
+            width: 30.6em;
+            height: 30.5em;
+            top: 94em;
+            left: 25em;
+        }
+
+        &-btns {
+            position: absolute;
+            bottom: 5.5em;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                display: flex;
+                background: var(--black);
+                color: var(--white);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 1;
+                border-radius: 10em;
+                width: 51.4em;
+                height: 10.8em;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+                img {
+                    margin: 0 1em 0 0;
+                    width: 5.5em;
+                    height: auto;
+                }
+
+                span {
+                    font-size: 4em;
+                }
+            }
+        }
+    }
+}

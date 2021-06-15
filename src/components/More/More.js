@@ -29,7 +29,10 @@ function More({ number }) {
         if (el.type === 'video') {
             return (
                 <div className="skullcandy-more-video">
-                    <img src={el.content.src} alt={el.content.alt} />
+                    <video controls={true} width="100%">
+                        <source src={el.content.src} type="video/mp4" />
+                    </video>
+                    {/* <img src={el.content.src} alt={el.content.alt} /> */}
                 </div>
             )
         }

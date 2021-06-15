@@ -8,6 +8,7 @@ import BlackSection from '../BlackSection/BlackSection';
 import PlayList from '../PlayList/PlayList';
 import Start from '../Start/Start';
 import More from '../More/More';
+import Final from '../Final/Final';
 
 function App() {
 
@@ -63,6 +64,8 @@ function App() {
             <More number={4} />
             <BlackSection number={6} />
             <PlayList number={2} />
+            <BigPic number={3} />
+            <Final />
         </div>
     );
 }
