@@ -12,10 +12,16 @@ import Final from '../Final/Final';
 
 function App() {
 
-    function getEm() { return window.innerWidth / 192 }
+    function getEm() {
+        if (window.innerWidth < 768) {
+            return window.innerWidth / 32
+        } else {
+            return window.innerWidth / 192
+        }
+    }
 
     function getIsMobile() {
-        return window.innerWidth < window.innerHeight && window.innerWidth < 768 ? true : false;
+        return window.innerWidth < 768 ? true : false;
     }
 
     const [em, setEm] = useState(10);

@@ -3,12 +3,24 @@
         position: relative;
         min-height: 114.5em;
 
+        .app-mobile & {
+            min-height: 60.5em;
+        }
+
         &-img {
             height: 3.7em;
             left: 40em;
             position: absolute;
             top: 11.8em;
             width: 19.5em;
+
+            .app-mobile & {
+                height: 2em;
+                left: 50%;
+                top: 3em;
+                width: 10.5em;
+                transform: translateX(-50%);
+            }
 
             img {
                 width: 100%;
@@ -22,8 +34,23 @@
             width: 68em;
             line-height: 4.9em;
 
+            .app-mobile & {
+                width: 23.8em;
+                position: absolute;
+                top: 8.5em;
+                line-height: 2.9em;
+
+                br {
+                    display: none;
+                }
+            }
+
             span {
                 font-size: 4.8em;
+
+                .app-mobile & {
+                    font-size: 2.2em;
+                }
             }
         }
 
@@ -32,13 +59,27 @@
             top: 61.5em;
             width: 76em;
 
+            .app-mobile & {
+                width: 23.8em;
+                top: 29.5em;
+            }
+
             h5 {
                 line-height: 4em;
                 font-weight: bold;
                 margin: 0 0 3.5em 0;
 
+                .app-mobile & {
+                    line-height: 1.6em;
+                    margin: 0 0 2.5em 0;
+                }
+
                 span {
                     font-size: 3.3em;
+
+                    .app-mobile & {
+                        font-size: 1.2em;
+                    }
                 }
             }
         }

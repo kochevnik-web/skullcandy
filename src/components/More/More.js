@@ -20,7 +20,7 @@ function More({ number }) {
 
         if (el.type === 'blockquote') {
             return (
-                <div className="skullcandy-blockquote">
+                <div key={i} className="skullcandy-blockquote">
                     <span dangerouslySetInnerHTML={{ __html: el.content }}></span>
                 </div>
             )
@@ -28,7 +28,7 @@ function More({ number }) {
 
         if (el.type === 'video') {
             return (
-                <div className="skullcandy-more-video">
+                <div key={i} className="skullcandy-more-video">
                     <video controls={true} width="100%">
                         <source src={el.content.src} type="video/mp4" />
                     </video>
@@ -39,7 +39,7 @@ function More({ number }) {
 
         if (el.type === 'image') {
             return (
-                <div className={"skullcandy-more-image " + el.content.id}>
+                <div key={i} className={"skullcandy-more-image " + el.content.id}>
                     <img className="skullcandy-image-width" src={el.content.src} alt={el.content.alt} />
                 </div>
             )
