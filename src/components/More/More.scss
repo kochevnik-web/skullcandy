@@ -3,15 +3,19 @@
         position: relative;
 
         &.skullcandy-dance-2 {
-            min-height: 237.3em;
+            min-height: 227.3em;
 
             .app-mobile & {
-                min-height: 111.3em;
+                min-height: 118.3em;
             }
         }
 
         &.skullcandy-dance-3 {
-            min-height: 119.7em;
+            min-height: 106.7em;
+
+            .app-mobile & {
+                min-height: 91.7em;
+            }
         }
 
         &.skullcandy-dj-1 {
@@ -27,12 +31,12 @@
         }
 
         &-content {
-            top: 9em;
+            top: 8em;
             width: 77em;
 
             .app-mobile & {
                 width: 24em;
-                top: 4em;
+                top: 3em;
             }
 
             p {
@@ -74,6 +78,14 @@
                 height: 60.9em;
                 left: 22em;
                 top: 50.7em;
+
+                .app-mobile & {
+                    width: 100%;
+                    height: auto;
+                    left: 50%;
+                    top: 58.7em;
+                    transform: translateX(-50%);
+                }
             }
 
             &.dj-2 {

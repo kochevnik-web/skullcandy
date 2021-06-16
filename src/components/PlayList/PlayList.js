@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Wrapper from '../Wrapper/Wrapper';
+
 import './PlayList.scss';
 
 import playlistData from './data';
@@ -24,23 +26,25 @@ function PlayList({ number }) {
     })
 
     return (
-        <div className="skullcandy-playlist">
-            <div className="skullcandy-playlist-wrap">
-                {list}
-                <div className="skullcandy-playlist-btns">
-                    <a
-                        href={playlist.link}
-                        className="skullcandy-btn-green"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <span>
-                            Слушать на Spotify
-                        </span>
-                    </a>
+        <Wrapper>
+            <div className="skullcandy-playlist">
+                <div className="skullcandy-playlist-wrap">
+                    {list}
+                    <div className="skullcandy-playlist-btns">
+                        <a
+                            href={playlist.link}
+                            className="skullcandy-btn-green"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <span>
+                                Слушать на Spotify
+                            </span>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </div >
+            </div >
+        </Wrapper>
     );
 }
 

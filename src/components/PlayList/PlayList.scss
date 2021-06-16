@@ -2,26 +2,49 @@
     &-playlist {
         padding: 12em 0 12em 50em;
 
+        .app-mobile & {
+            padding: 4em 0;
+        }
+
         &-wrap {
             border: 1em solid var(--black);
             width: 108em;
             padding: 6.4em 9.3em 6.4em 9.1em;
+
+            .app-mobile & {
+                border: 0.4em solid var(--black);
+                width: 90%;
+                padding: 2em;
+                margin: 0 auto;
+            }
         }
 
         &-row {
             display: flex;
             justify-content: space-between;
             margin: 0 0 3.5em 0;
+
+            .app-mobile & {
+                margin: 0 0 2em 0;
+            }
         }
 
         &-col-1, &-col-2 {
             span {
                 font-size: 2.7em;
+
+                .app-mobile & {
+                    font-size: 1.2em;
+                }
             }
         }
 
         &-col-2 {
             width: 78em;
+
+            .app-mobile & {
+                width: 20em;
+            }
         }
 
         &-btns {
@@ -36,8 +59,19 @@
             font-weight: bold;
             border-radius: 5em;
 
+            .app-mobile & {
+                width: 17.3em;
+                height: 3.5em;
+                border-radius: 3.5em;
+                border: 0.2em solid var(--green);
+            }
+
             span {
                 font-size: 3em;
+
+                .app-mobile & {
+                    font-size: 1.6em;
+                }
             }
         }
     }

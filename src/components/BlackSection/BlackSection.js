@@ -2,6 +2,8 @@ import React from 'react';
 import data from './data';
 import './BlackSection.scss';
 
+import Wrapper from '../Wrapper/Wrapper';
+
 function BlackSection({ number }) {
     const sectionData = data[number];
 
@@ -11,10 +13,12 @@ function BlackSection({ number }) {
 
     return (
         <div className={"skullcandy-black-section style-" + number}>
-            <div className="skullcandy-black-section-content skullcandy-left">
-                <span dangerouslySetInnerHTML={{ __html: sectionData.text }}></span>
-            </div>
-            {images}
+            <Wrapper>
+                <div className="skullcandy-black-section-content skullcandy-left">
+                    <span dangerouslySetInnerHTML={{ __html: sectionData.text }}></span>
+                </div>
+                {images}
+            </Wrapper>
         </div >
     );
 }

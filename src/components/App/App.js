@@ -35,11 +35,11 @@ function App() {
                 <Start number={0} />
                 <BlackSection number={0} />
                 <More number={0} />
-                {/* <BlackSection number={1} />
+                <BlackSection number={1} />
                 <More number={1} />
                 <BlackSection number={2} />
                 <PlayList number={0} />
-                <BigPic number={1} />
+                {/* <BigPic number={1} />
                 <Start number={1} />
                 <BlackSection number={3} />
                 <More number={2} />

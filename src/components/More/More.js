@@ -1,4 +1,5 @@
 import React from 'react';
+import Wrapper from '../Wrapper/Wrapper';
 
 import './More.scss';
 
@@ -49,16 +50,18 @@ function More({ number }) {
     });
 
     return (
-        <div className={cls.join(' ')}>
-            <div className="skullcandy-more-content skullcandy-left">
-                {elements}
-            </div>
-            {dataMore.image && (
-                <div className={"skullcandy-more-image " + dataMore.id}>
-                    <img className="skullcandy-image-width" src={dataMore.image.src} alt={dataMore.image.alt} />
+        <Wrapper>
+            <div className={cls.join(' ')}>
+                <div className="skullcandy-more-content skullcandy-left">
+                    {elements}
                 </div>
-            )}
-        </div>
+                {dataMore.image && (
+                    <div className={"skullcandy-more-image " + dataMore.id}>
+                        <img className="skullcandy-image-width" src={dataMore.image.src} alt={dataMore.image.alt} />
+                    </div>
+                )}
+            </div>
+        </Wrapper>
     );
 }
 

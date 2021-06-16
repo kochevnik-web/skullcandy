@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Context } from '../../context';
 
-function Wrapper({ em, isMobile, children }) {
+function Wrapper({ children }) {
+
+    const { em, isMobile } = useContext(Context);
 
     return (
         <div className="app-wrap" style={{ width: isMobile ? em * 32 + 'px' : em * 192 + 'px' }}>
