@@ -46,7 +46,7 @@ function Stas({ number }) {
                 </h5>
                 {text}
             </div>
-            <div className="skullcandy-start-image" style={dataStart.image.style}>
+            <div className="skullcandy-start-image">
                 <img src={dataStart.image.src} alt={dataStart.name} />
             </div>
         </div >

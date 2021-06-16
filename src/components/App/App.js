@@ -51,7 +51,7 @@ function App() {
             <Intro />
             <BigPic number={0} />
             <Start number={0} />
-            <BlackSection number={0} />
+            {/* <BlackSection number={0} />
             <More number={0} />
             <BlackSection number={1} />
             <More number={1} />
@@ -71,7 +71,7 @@ function App() {
             <BlackSection number={6} />
             <PlayList number={2} />
             <BigPic number={3} />
-            <Final />
+            <Final /> */}
         </div>
     );
 }
