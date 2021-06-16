@@ -46,14 +46,14 @@ function App() {
                 <BlackSection number={4} />
                 <More number={3} />
                 <PlayList number={1} />
-                {/* <BigPic number={2} />
+                <BigPic number={2} />
                 <Start number={2} />
                 <BlackSection number={5} />
                 <More number={4} />
                 <BlackSection number={6} />
                 <PlayList number={2} />
                 <BigPic number={3} />
-                <Final /> */}
+                {/* <Final /> */}
             </div>
         </div>
     );

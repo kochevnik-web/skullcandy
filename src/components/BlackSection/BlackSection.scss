@@ -155,6 +155,66 @@
             }
         }
 
+        &.style-5 {
+            height: 58.7em;
+
+            .app-mobile & {
+                height: 24em;
+            }
+
+            .skullcandy-black-section-content {
+                top: 14.5em;
+
+                .app-mobile & {
+                    top: 6em;
+                }
+            }
+
+            img {
+                left: 126em;
+                top: -21.5em;
+                width: 68.1em;
+                height: 60.8em;
+
+                .app-mobile & {
+                    left: 14.4em;
+                    top: -10.5em;
+                    width: 18em;
+                    height: auto;
+                }
+            }
+        }
+
+        &.style-6 {
+            height: 51em;
+
+            .app-mobile & {
+                height: 21em;
+            }
+
+            .skullcandy-black-section-content {
+                top: 13.5em;
+
+                .app-mobile & {
+                    top: 6em;
+                }
+            }
+
+            img {
+                left: 135em;
+                top: -27.5em;
+                width: 58.2em;
+                height: 58.2em;
+
+                .app-mobile & {
+                    left: 14.4em;
+                    top: -11.5em;
+                    width: 18em;
+                    height: auto;
+                }
+            }
+        }
+
         img {
             position: absolute;
         }

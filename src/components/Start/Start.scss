@@ -63,7 +63,33 @@
     }
 
     &-skateboard {
-        min-height: 154em;
+        min-height: 159em;
+
+        .app-mobile & {
+            min-height: 157.3em;
+        }
+
+        .skullcandy-start-insta {
+            .app-mobile & {
+                top: 22em;
+                left: 5.5em;
+            }
+        }
+
+        .skullcandy-start-image {
+            width: 52.2em;
+            height: 63.9em;
+            left: 7em;
+            top: 83em;
+
+            .app-mobile & {
+                width: 90%;
+                height: auto;
+                left: 50%;
+                top: 112.5em;
+                transform: translateX(-50%);
+            }
+        }
     }
 
     &-start {

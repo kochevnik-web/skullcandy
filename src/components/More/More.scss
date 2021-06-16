@@ -36,6 +36,10 @@
 
         &.skullcandy-skateboard-2 {
             min-height: 209.7em;
+
+            .app-mobile & {
+                min-height: 131.7em;
+            }
         }
 
         &-content {
@@ -116,6 +120,14 @@
                 height: 46.5em;
                 left: 4.2em;
                 top: 153.4em;
+
+                .app-mobile & {
+                    width: 90%;
+                    height: auto;
+                    left: 50%;
+                    top: 96.4em;
+                    transform: translateX(-50%);
+                }
             }
         }
     }
