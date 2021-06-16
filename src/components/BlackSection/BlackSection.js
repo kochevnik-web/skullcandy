@@ -5,17 +5,13 @@ import './BlackSection.scss';
 function BlackSection({ number }) {
     const sectionData = data[number];
 
-    const style = {
-        height: sectionData.height
-    }
-
     const images = sectionData.images.map(el => {
-        return <img key={el.src} src={el.src} alt={el.alt} style={el.style} />
+        return <img key={el.src} src={el.src} alt={el.alt} />
     });
 
     return (
-        <div className="skullcandy-black-section" style={style}>
-            <div className="skullcandy-black-section-content skullcandy-left" style={sectionData.styleWrap}>
+        <div className={"skullcandy-black-section style-" + number}>
+            <div className="skullcandy-black-section-content skullcandy-left">
                 <span dangerouslySetInnerHTML={{ __html: sectionData.text }}></span>
             </div>
             {images}

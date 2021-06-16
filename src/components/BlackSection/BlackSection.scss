@@ -4,6 +4,37 @@
         color: var(--white);
         position: relative;
 
+        &.style-0 {
+            height: 59.5em;
+
+            .app-mobile & {
+                height: 28.5em;
+            }
+
+            .skullcandy-black-section-content {
+                top: 15.5em;
+
+                .app-mobile & {
+                    top: 8.5em;
+                }
+            }
+
+            img {
+                left: 146.4em;
+                top: -9em;
+                width: 40em;
+                height: 23.9em;
+
+                .app-mobile & {
+                    left: 16.4em;
+                    top: -3em;
+                    width: 14em;
+                    height: auto;
+                }
+            }
+
+        }
+
         img {
             position: absolute;
         }
@@ -13,8 +44,17 @@
             font-weight: bold;
             line-height: 3.6em;
 
+            .app-mobile & {
+                width: 23.8em;
+                line-height: 1.6em;
+            }
+
             span {
                 font-size: 3.6em;
+
+                .app-mobile & {
+                    font-size: 1.2em;
+                }
 
                 text {
                     display: inline;
@@ -33,6 +73,13 @@
                 height: 1em;
                 top: -6.2em;
                 left: 0;
+
+                .app-mobile & {
+                    width: 5em;
+                    height: 0.4em;
+                    top: -2.2em;
+                    left: 0;
+                }
             }
         }
     }

@@ -3,6 +3,10 @@
     &-dance {
         min-height: 139.3em;
 
+        .app-mobile & {
+            min-height: 148.3em;
+        }
+
         .skullcandy-start-insta {
             .app-mobile & {
                 top: 22em;
@@ -20,7 +24,7 @@
                 width: 85%;
                 height: auto;
                 left: 50%;
-                top: 55em;
+                top: 56em;
                 transform: translateX(-50%);
             }
         }

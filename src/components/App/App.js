@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import gsap from 'gsap';
 import './App.scss';
 
+import Wrapper from '../Wrapper/Wrapper';
+
 import Intro from '../Intro/Intro';
 import BigPic from '../BigPic/BigPic';
 import BlackSection from '../BlackSection/BlackSection';
@@ -14,9 +16,9 @@ function App() {
 
     function getEm() {
         if (window.innerWidth < 768) {
-            return window.innerWidth / 32
+            return Math.floor(window.innerWidth / 32);
         } else {
-            return window.innerWidth / 192
+            return Math.floor(window.innerWidth / 192);
         }
     }
 
@@ -48,30 +50,38 @@ function App() {
 
     return (
         <div className={clx.join(' ')} style={{ fontSize: em }}>
-            <Intro />
-            <BigPic number={0} />
-            <Start number={0} />
-            {/* <BlackSection number={0} />
-            <More number={0} />
-            <BlackSection number={1} />
-            <More number={1} />
-            <BlackSection number={2} />
-            <PlayList number={0} />
-            <BigPic number={1} />
-            <Start number={1} />
-            <BlackSection number={3} />
-            <More number={2} />
-            <BlackSection number={4} />
-            <More number={3} />
-            <PlayList number={1} />
-            <BigPic number={2} />
-            <Start number={2} />
-            <BlackSection number={5} />
-            <More number={4} />
-            <BlackSection number={6} />
-            <PlayList number={2} />
-            <BigPic number={3} />
-            <Final /> */}
+            <div>
+                <Wrapper em={em} isMobile={isMobile}>
+                    <Intro />
+                </Wrapper>
+                <BigPic number={0} />
+                <Wrapper em={em} isMobile={isMobile}>
+                    <Start number={0} />
+                </Wrapper>
+                <BlackSection number={0} />
+                <Wrapper em={em} isMobile={isMobile}>
+                    <More number={0} />
+                </Wrapper>
+                {/* <BlackSection number={1} />
+                <More number={1} />
+                <BlackSection number={2} />
+                <PlayList number={0} />
+                <BigPic number={1} />
+                <Start number={1} />
+                <BlackSection number={3} />
+                <More number={2} />
+                <BlackSection number={4} />
+                <More number={3} />
+                <PlayList number={1} />
+                <BigPic number={2} />
+                <Start number={2} />
+                <BlackSection number={5} />
+                <More number={4} />
+                <BlackSection number={6} />
+                <PlayList number={2} />
+                <BigPic number={3} />
+                <Final /> */}
+            </div>
         </div>
     );
 }
