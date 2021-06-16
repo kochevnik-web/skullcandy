@@ -37,7 +37,29 @@
     }
 
     &-dj {
-        min-height: 106em;
+        min-height: 107em;
+
+        .app-mobile & {
+            min-height: 90.3em;
+        }
+
+        .skullcandy-start-insta {
+            .app-mobile & {
+                top: 24em;
+                left: 5.5em;
+            }
+        }
+
+        .skullcandy-start-image {
+            width: 30.9em;
+            height: 46.3em;
+            left: 27em;
+            top: 53em;
+
+            .app-mobile & {
+                display: none;
+            }
+        }
     }
 
     &-skateboard {

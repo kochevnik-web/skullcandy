@@ -19,11 +19,19 @@
         }
 
         &.skullcandy-dj-1 {
-            min-height: 85.1em;
+            min-height: 81.1em;
+
+            .app-mobile & {
+                min-height: 47.5em;
+            }
         }
 
         &.skullcandy-dj-2 {
-            min-height: 236.7em;
+            min-height: 229.7em;
+
+            .app-mobile & {
+                min-height: 170.7em;
+            }
         }
 
         &.skullcandy-skateboard-2 {
@@ -89,10 +97,18 @@
             }
 
             &.dj-2 {
-                width: 43.4em;
+                width: 40.4em;
                 height: 65.1em;
                 left: 14.2em;
-                top: 174.4em;
+                top: 172.4em;
+
+                .app-mobile & {
+                    width: 90%;
+                    height: auto;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 128em;
+                }
             }
 
             &.skateboard-2 {

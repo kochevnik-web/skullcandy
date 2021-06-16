@@ -39,14 +39,14 @@ function App() {
                 <More number={1} />
                 <BlackSection number={2} />
                 <PlayList number={0} />
-                {/* <BigPic number={1} />
+                <BigPic number={1} />
                 <Start number={1} />
                 <BlackSection number={3} />
                 <More number={2} />
                 <BlackSection number={4} />
                 <More number={3} />
                 <PlayList number={1} />
-                <BigPic number={2} />
+                {/* <BigPic number={2} />
                 <Start number={2} />
                 <BlackSection number={5} />
                 <More number={4} />
