@@ -5,6 +5,10 @@ import './index.scss';
 import './components/fonts.scss';
 import App from './components/App/App';
 
+import ContextProvider from './context';
+
 ReactDOM.render(
-    <App />,
+    <ContextProvider>
+        <App />
+    </ContextProvider>,
     document.getElementById('skullcandy'));

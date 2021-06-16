@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 import gsap from 'gsap';
 import './App.scss';
 
-import Wrapper from '../Wrapper/Wrapper';
+import { Context } from "../../context";
 
 import Intro from '../Intro/Intro';
 import BigPic from '../BigPic/BigPic';
@@ -14,35 +14,14 @@ import Final from '../Final/Final';
 
 function App() {
 
-    function getEm() {
-        if (window.innerWidth < 768) {
-            return Math.floor(window.innerWidth / 32);
-        } else {
-            return Math.floor(window.innerWidth / 192);
-        }
-    }
-
-    function getIsMobile() {
-        return window.innerWidth < 768 ? true : false;
-    }
-
-    const [em, setEm] = useState(10);
-    const [isMobile, setIsMobile] = useState(false);
+    const { em, isMobile } = useContext(Context);
 
     useEffect(() => {
-        setEm(getEm());
-        setIsMobile(getIsMobile());
-
         gsap.to('.app', {
             opacity: 1,
             duration: 0.8
         });
     }, []);
-
-    window.addEventListener('resize', () => {
-        setEm(getEm());
-        setIsMobile(getIsMobile());
-    });
 
     let clx = ['app'];
 
@@ -51,17 +30,11 @@ function App() {
     return (
         <div className={clx.join(' ')} style={{ fontSize: em }}>
             <div>
-                <Wrapper em={em} isMobile={isMobile}>
-                    <Intro />
-                </Wrapper>
+                <Intro />
                 <BigPic number={0} />
-                <Wrapper em={em} isMobile={isMobile}>
-                    <Start number={0} />
-                </Wrapper>
+                <Start number={0} />
                 <BlackSection number={0} />
-                <Wrapper em={em} isMobile={isMobile}>
-                    <More number={0} />
-                </Wrapper>
+                <More number={0} />
                 {/* <BlackSection number={1} />
                 <More number={1} />
                 <BlackSection number={2} />
