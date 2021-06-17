@@ -17,7 +17,7 @@ export default function ContextProvider({ children }) {
     }
 
     const [em, setEm] = useState(10);
-    const [isMobile, setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState(getIsMobile());
 
     useEffect(() => {
         setEm(getEm());
