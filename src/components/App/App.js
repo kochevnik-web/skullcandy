@@ -53,7 +53,7 @@ function App() {
                 <BlackSection number={6} />
                 <PlayList number={2} />
                 <BigPic number={3} />
-                {/* <Final /> */}
+                <Final isMobile={isMobile} />
             </div>
         </div>
     );

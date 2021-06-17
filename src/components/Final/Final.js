@@ -9,7 +9,7 @@ import ico from './img/ico.png';
 
 import './Final.scss';
 
-function Final() {
+function Final({ isMobile }) {
 
     return (
         <div className="skullcandy-final">
@@ -19,6 +19,16 @@ function Final() {
                         Основатель компании SkullCandy Рик Олден занимается сноубордингом, поэтому не удивительно, что он смог сделать дизайн наушников таким, что они стали популярны среди тех, кто ведёт активный образ жизни: у спортсменов, танцоров и представителей субкультур.
                     </span>
                 </p>
+                {isMobile ? (
+                    <>
+                        <div className="skullcandy-more-image skullcandy-final-image-2">
+                            <img className="skullcandy-image-width" src={image3} alt="skullcandy" />
+                        </div>
+                        <div className="skullcandy-more-image skullcandy-final-image-2">
+                            <img className="skullcandy-image-width" src={image4} alt="skullcandy" />
+                        </div>
+                    </>
+                ) : null}
                 <p className="skullcandy-lh">
                     <span className="skullcandy-text">
                         Беспроводные модели наушников <a href="https://doctorhead.ru/product/skullcandy_indy_evo_tws_grey/" target="_blank" rel="noreferrer">Indy Evo</a> и <a href="https://doctorhead.ru/product/skullcandy_sesh_evo_tws_black/" target="_blank" rel="noreferrer">Sesh Evo</a> уже давно известны в Америке и за её пределами. Их главные преимущества — отличное звучание, защита от влаги и заряд батареи, которого хватает до шести часов. Многие признают их классикой, которая будет
@@ -26,6 +36,16 @@ function Final() {
 
                     </span>
                 </p>
+                {isMobile ? (
+                    <>
+                        <div className="skullcandy-more-image skullcandy-final-image-2">
+                            <img className="skullcandy-image-width" src={image2} alt="skullcandy" />
+                        </div>
+                        <div className="skullcandy-more-image skullcandy-final-image-2">
+                            <img className="skullcandy-image-width" src={image5} alt="skullcandy" />
+                        </div>
+                    </>
+                ) : null}
                 <p className="skullcandy-lh">
                     <span className="skullcandy-text">
                         А в этом сезоне бренд представил новую модель <a href="https://doctorhead.ru/product/skullcandy_dime_chill_grey/" target="_blank" rel="noreferrer">DIME</a>. Благодаря плотной посадке
@@ -34,21 +54,27 @@ function Final() {
                     </span>
                 </p>
             </div>
+
             <div className="skullcandy-more-image skullcandy-final-image-1">
                 <img className="skullcandy-image-width" src={image1} alt="skullcandy" />
             </div>
-            <div className="skullcandy-more-image skullcandy-final-image-2">
-                <img className="skullcandy-image-width" src={image2} alt="skullcandy" />
-            </div>
-            <div className="skullcandy-more-image skullcandy-final-image-3">
-                <img className="skullcandy-image-width" src={image3} alt="skullcandy" />
-            </div>
-            <div className="skullcandy-more-image skullcandy-final-image-4">
-                <img className="skullcandy-image-width" src={image4} alt="skullcandy" />
-            </div>
-            <div className="skullcandy-more-image skullcandy-final-image-5">
-                <img className="skullcandy-image-width" src={image5} alt="skullcandy" />
-            </div>
+
+            {!isMobile ? (
+                <>
+                    <div className="skullcandy-more-image skullcandy-final-image-2">
+                        <img className="skullcandy-image-width" src={image2} alt="skullcandy" />
+                    </div>
+                    <div className="skullcandy-more-image skullcandy-final-image-3">
+                        <img className="skullcandy-image-width" src={image3} alt="skullcandy" />
+                    </div>
+                    <div className="skullcandy-more-image skullcandy-final-image-4">
+                        <img className="skullcandy-image-width" src={image4} alt="skullcandy" />
+                    </div>
+                    <div className="skullcandy-more-image skullcandy-final-image-5">
+                        <img className="skullcandy-image-width" src={image5} alt="skullcandy" />
+                    </div>
+                </>
+            ) : null}
             <div className="skullcandy-final-btns">
                 <a href="https://doctorhead.ru/brands/skullcandy/products/personal-audio/naushniki/besprovodnye-bluetooth/" target="_blank" rel="noreferrer">
                     <img src={ico} alt="ico" />
