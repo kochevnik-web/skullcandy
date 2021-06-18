@@ -4,14 +4,8 @@
         min-height: 139.3em;
 
         .app-mobile & {
-            min-height: 146.3em;
-        }
-
-        .skullcandy-start-insta {
-            .app-mobile & {
-                top: 22em;
-                left: 5.5em;
-            }
+            min-height: auto;
+            padding: 3em 0;
         }
 
         .skullcandy-start-image {
@@ -19,20 +13,6 @@
             height: 65.1em;
             left: 15em;
             top: 61.5em;
-
-            .app-mobile & {
-                width: 90%;
-                height: auto;
-                left: 50%;
-                top: 56.5em;
-                transform: translateX(-50%);
-            }
-        }
-
-        .skullcandy-start-content h5 {
-            .app-mobile & {
-                margin: 0 0 46em 0;
-            }
         }
     }
 
@@ -41,13 +21,6 @@
 
         .app-mobile & {
             min-height: 90.3em;
-        }
-
-        .skullcandy-start-insta {
-            .app-mobile & {
-                top: 24em;
-                left: 5.5em;
-            }
         }
 
         .skullcandy-start-image {
@@ -67,13 +40,6 @@
 
         .app-mobile & {
             min-height: 157.3em;
-        }
-
-        .skullcandy-start-insta {
-            .app-mobile & {
-                top: 22em;
-                left: 5.5em;
-            }
         }
 
         .skullcandy-start-image {
@@ -104,6 +70,13 @@
             left: 12.5em;
             z-index: 1;
 
+            .app-mobile & {
+                position: relative;
+                top: 0;
+                left: 0;
+                margin: 0 0 2em 0;
+            }
+
             &-img {
                 width: 17em;
                 height: 17em;
@@ -123,7 +96,7 @@
             }
 
             &-title {
-                h5 {
+                h6 {
                     font-size: 4em;
                     font-weight: bold;
 
@@ -212,7 +185,7 @@
 
                 .app-mobile & {
                     line-height: 2em;
-                    margin: 0 0 15em 0;
+                    margin: 0 0 2em 0;
                 }
 
                 span {
@@ -227,6 +200,14 @@
 
         &-image {
             position: absolute;
+
+            .app-mobile & {
+                position: unset;
+                margin: 0 auto;
+                width: 90%;
+                height: auto;
+                margin-bottom: 2em;
+            }
 
             img {
                 display: block;

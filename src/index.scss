@@ -35,7 +35,11 @@ body {
         left: 70.4em;
 
         .app-mobile & {
-            left: 6.6em;
+            transform: translateX(6.6em);
+            position: unset;
+            margin: 0 0 2em;
+            left: 0;
+            top: 0;
         }
     }
 
