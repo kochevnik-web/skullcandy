@@ -4,12 +4,9 @@
         min-height: 144em;
         font-weight: bold;
 
-        .app-mobile & {
-
-        }
-
         .skullcandy-more-content {
             width: 55em;
+            z-index: 1;
 
             .app-mobile & {
                 width: 67%;
@@ -123,6 +120,14 @@
                     }
                 }
             }
+        }
+
+        &-paralax {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: -20.7em;
         }
     }
 }

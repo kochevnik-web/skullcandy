@@ -21,7 +21,7 @@
             top: 61.5em;
 
             .app-mobile & {
-                width: 85%;
+                width: 90%;
                 height: auto;
                 left: 50%;
                 top: 56.5em;
@@ -102,6 +102,7 @@
             align-items: center;
             top: 16em;
             left: 12.5em;
+            z-index: 1;
 
             &-img {
                 width: 17em;

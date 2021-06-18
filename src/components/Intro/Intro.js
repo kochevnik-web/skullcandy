@@ -15,7 +15,7 @@ function App() {
                 </div>
                 <h1 className="skullcandy-intro-title skullcandy-left">
                     <span>
-                        <strong>«Ёкнуло сердечко, и пришло понимание — это моё».</strong><br />Скейтбордист, хореограф и диджей — о том, как найти дело по душе
+                        <strong>«Ёкнуло сердечко, и пришло понимание — это моё».</strong><br /> Скейтбордист, хореограф и диджей — о том, как найти дело по душе
                     </span>
                 </h1>
                 <div className="skullcandy-intro-description skullcandy-left">

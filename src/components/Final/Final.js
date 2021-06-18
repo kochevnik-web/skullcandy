@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import gsap from 'gsap';
 
 import image1 from './img/image1.png';
 import image2 from './img/image2.png';
@@ -13,9 +14,22 @@ import Wrapper from '../Wrapper/Wrapper';
 
 function Final({ isMobile }) {
 
+    const paralax = (e) => {
+        if (!isMobile) {
+            let cx = window.innerWidth / 2;
+            let cy = window.innerHeight / 2;
+            let dx = e.pageX - cx;
+            let dy = e.pageY - cy;
+            let tiltx = (dy / cy);
+            let tilty = - (dx / cx);
+            gsap.to(".skullcandy-final-paralax", 1, { x: tilty * 4, y: tiltx * 4, rotation: 0.01, ease: 'power2.put' });
+        }
+
+    }
+
     return (
         <Wrapper>
-            <div className="skullcandy-final">
+            <div className="skullcandy-final" onMouseMove={(e) => paralax(e)}>
                 <div className="skullcandy-more-content skullcandy-left">
                     <p className="skullcandy-lh">
                         <span className="skullcandy-text">
@@ -63,7 +77,7 @@ function Final({ isMobile }) {
                 </div>
 
                 {!isMobile ? (
-                    <>
+                    <div className="skullcandy-final-paralax">
                         <div className="skullcandy-more-image skullcandy-final-image-2">
                             <img className="skullcandy-image-width" src={image2} alt="skullcandy" />
                         </div>
@@ -76,7 +90,7 @@ function Final({ isMobile }) {
                         <div className="skullcandy-more-image skullcandy-final-image-5">
                             <img className="skullcandy-image-width" src={image5} alt="skullcandy" />
                         </div>
-                    </>
+                    </div>
                 ) : null}
                 <div className="skullcandy-final-btns">
                     <a href="https://doctorhead.ru/brands/skullcandy/products/personal-audio/naushniki/besprovodnye-bluetooth/" target="_blank" rel="noreferrer">
