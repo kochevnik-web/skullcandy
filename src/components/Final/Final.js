@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import gsap from 'gsap';
 
 import image1 from './img/image1.png';
