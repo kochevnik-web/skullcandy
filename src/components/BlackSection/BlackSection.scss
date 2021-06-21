@@ -4,19 +4,21 @@
         color: var(--white);
         position: relative;
 
+        .app-mobile & {
+            height: auto;
+            padding: 5.5em 0 0.5em;
+            position: unset;
+        }
+
         &.style-0 {
             height: 59.5em;
 
             .app-mobile & {
-                height: 28.5em;
+                height: auto;
             }
 
             .skullcandy-black-section-content {
                 top: 15.5em;
-
-                .app-mobile & {
-                    top: 8.5em;
-                }
             }
 
             img {
@@ -27,7 +29,7 @@
 
                 .app-mobile & {
                     left: 16.4em;
-                    top: -3em;
+                    top: -9.5em;
                     width: 14em;
                     height: auto;
                 }
@@ -39,7 +41,7 @@
             height: 35.4em;
 
             .app-mobile & {
-                height: 14.5em;
+                height: auto;
             }
 
             .skullcandy-black-section-content {
@@ -58,7 +60,7 @@
 
                 .app-mobile & {
                     left: 18.4em;
-                    top: -9.5em;
+                    top: -12.5em;
                     width: 14em;
                     height: auto;
                 }
@@ -69,7 +71,7 @@
             height: 38.2em;
 
             .app-mobile & {
-                height: 15.5em;
+                height: auto;
             }
 
             .skullcandy-black-section-content {
@@ -88,7 +90,7 @@
 
                 .app-mobile & {
                     left: 1.4em;
-                    top: 3.5em;
+                    top: -2.5em;
                     width: 4em;
                     height: auto;
                 }
@@ -99,7 +101,7 @@
             height: 55.5em;
 
             .app-mobile & {
-                height: 23.5em;
+                height: auto;
             }
 
             .skullcandy-black-section-content {
@@ -118,7 +120,7 @@
 
                 .app-mobile & {
                     left: 15.4em;
-                    top: -9.5em;
+                    top: -14.5em;
                     width: 15em;
                     height: auto;
                 }
@@ -129,7 +131,7 @@
             height: 29.2em;
 
             .app-mobile & {
-                height: 13em;
+                height: auto;
             }
 
             .skullcandy-black-section-content {
@@ -148,7 +150,7 @@
 
                 .app-mobile & {
                     left: 1.4em;
-                    top: 3.5em;
+                    top: -2.5em;
                     width: 4em;
                     height: auto;
                 }
@@ -159,7 +161,7 @@
             height: 58.7em;
 
             .app-mobile & {
-                height: 24em;
+                height: auto;
             }
 
             .skullcandy-black-section-content {
@@ -178,7 +180,7 @@
 
                 .app-mobile & {
                     left: 14.4em;
-                    top: -10.5em;
+                    top: -16em;
                     width: 18em;
                     height: auto;
                 }
@@ -189,7 +191,7 @@
             height: 51em;
 
             .app-mobile & {
-                height: 21em;
+                height: auto;
             }
 
             .skullcandy-black-section-content {
@@ -208,7 +210,7 @@
 
                 .app-mobile & {
                     left: 14.4em;
-                    top: -11.5em;
+                    top: -16.5em;
                     width: 18em;
                     height: auto;
                 }

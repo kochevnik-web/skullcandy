@@ -5,7 +5,7 @@
 
         .app-mobile & {
             min-height: auto;
-            padding: 3em 0;
+            padding: 3em 0 5em;
         }
 
         .skullcandy-start-image {
@@ -20,7 +20,8 @@
         min-height: 107em;
 
         .app-mobile & {
-            min-height: 90.3em;
+            min-height: auto;
+            padding: 3em 0 7em;
         }
 
         .skullcandy-start-image {
@@ -39,7 +40,8 @@
         min-height: 159em;
 
         .app-mobile & {
-            min-height: 157.3em;
+            min-height: auto;
+            padding: 3em 0 5em;
         }
 
         .skullcandy-start-image {
@@ -53,7 +55,8 @@
                 height: auto;
                 left: 50%;
                 top: 112.5em;
-                transform: translateX(-50%);
+                transform: unset;
+                margin-bottom: 4.5em;
             }
         }
     }
