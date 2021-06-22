@@ -1,7 +1,7 @@
 import React from 'react';
 import './Intro.scss';
 
-import logo from './img/logo.png';
+import logo from './img/logo.svg';
 
 import Wrapper from '../Wrapper/Wrapper';
 
