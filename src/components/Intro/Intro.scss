@@ -9,15 +9,15 @@
         }
 
         &-img {
-            height: 3.7em;
+            height: auto;
             left: 40em;
             position: absolute;
             top: 11.8em;
-            width: 19.5em;
+            width: 29.5em;
 
             .app-mobile & {
-                height: 2em;
-                width: 10.5em;
+                height: auto;
+                width: 13.5em;
                 position: unset;
                 margin: 0 auto 3.5em auto;
             }

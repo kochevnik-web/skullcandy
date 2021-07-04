@@ -1,7 +1,7 @@
 import React from 'react';
 import gsap from 'gsap';
 
-import image1 from './img/image1.png';
+import image1 from './img/image1.svg';
 import image2 from './img/image2.png';
 import image3 from './img/image3.png';
 import image4 from './img/image4.png';
